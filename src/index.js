@@ -13,7 +13,7 @@ import DetailPage from './component/DetailPage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: `${process.env.PUBLIC_URL}`,
     element: <App />,
     errorElement: <NotFound />,
     children: [
